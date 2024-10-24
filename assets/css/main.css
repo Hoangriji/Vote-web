@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    background-color: #9013FE;
+}
+
+header{
+    position: sticky;
+    min-width: 375px;
+    display: flex;
+    margin: 0;
+}
+
+
+.header_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+    margin: 0 30px;
+    padding-top: 17px;
+}
+
+.header_title {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.header_layout{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.header_layout1{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+    box-shadow: #fff;
+}
+
+.img_menubar{
+    width: 19px;
+    height: 17px;
+    
+}
+
+.inner_menubar{
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    display: contents;
+}
+
+/* container */
